@@ -1,0 +1,518 @@
+
+.content{
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    font-family:Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; 
+    font-size: 14px;
+
+}
+
+
+header{
+    position: relative;
+    height: 500px;
+    background-image: linear-gradient(rgb(3, 85, 167), rgb(0, 162, 255));
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 100%,
+      0 calc(100% - 15vw)
+    );
+    z-index: -1;
+}
+ul.sup-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    overflow: hidden;
+    align-items: center;
+    list-style-position: inside;
+    background-color: rgb(3, 85, 167);
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+li.textlist {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+    align-items: center;
+    list-style-position: inside;
+    font-family:Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; 
+}
+
+
+.textlist{
+        color: rgb(255, 255, 255);
+        cursor:pointer;
+        display:list-item;
+        font-size:14px;
+        font-stretch:100%;
+        font-weight: 400;
+        height:24px;
+        letter-spacing: 0.3px;
+        line-height:24px;
+        list-style-position:inside;
+        padding-bottom: 5px;
+        text-align:left;
+        white-space: nowrap;
+        -webkit-font-smoothing:antialiased
+      }
+
+li a.menu {
+    display: block;
+    color: white;
+    font-family:Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; 
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+}
+
+li a.menu:hover:not(.active) {
+   color: rgb(156, 156, 156);
+}
+
+.active {
+    background-color:none;
+}
+
+#search-container{   
+    color: #333;
+    border: none;
+    border-radius: 100px;
+    background-color: #fafafa;
+    white-space:nowrap;
+    padding: 8px 16px;
+    margin-left: 8px;
+    width: 180px;
+    max-width: 240px;
+    height: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 1.5em;
+    -webkit-appearance: none;
+  }
+li a.active{
+    display: inline-flex;
+    flex-direction: column;
+    color: white;
+    align-content: center;
+    padding: 1px 10px 3px 5px;
+    text-decoration: none;
+    flex-direction: row;
+    height: 64px;
+    line-height: 32px;
+    
+
+}
+/* You can add global styles to this file, and also import other style files */
+header{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgb(3, 85, 167), rgb(0, 162, 255));
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 100%,
+      0 calc(100% - 15vw)
+    );
+    z-index: -1;
+}
+
+#getst {
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(25,118,210);
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 48px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(25,118,210);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-top-color: rgb(25,118,210);
+    border-top-left-radius: 48px;
+    border-top-right-radius: 48px;
+    border-top-style: none;
+    border-top-width: 0px;
+    box-shadow: rgba(0, 0, 0, 0.26) 0px 2px 5px 0px;
+    box-sizing: border-box;
+    color: rgb(25, 118, 210);
+    cursor: pointer;
+    display: flex;
+    font-family: Roboto, "Helvetiva Neue Light";
+    font-size: 18px;
+    font-weight: 600;
+    height: 40px;
+    justify-content: center;
+    letter-spacing: 0.3px;
+    line-height: 40px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 0px;
+    text-decoration-color:rgb(25, 118, 210);
+    text-decoration-line:none;
+    text-decoration-style:solid;
+    width: 184px;
+}
+
+    #intro {
+    align-items:center;
+    color:rgb(255, 255, 255);
+    display:flex;
+    font-family:Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px;
+    height:480px;
+    margin-bottom:-32px;
+    margin-left:300.5px;
+    margin-right:300.5px;
+    margin-top:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    }
+
+    .hero-logo{
+        display: flex;
+        width: 400px;
+        margin-bottom: 8px;
+        
+    }
+    #imgAng{
+        width: 400px;
+        height: 400px;
+        margin-bottom: 8px;
+        padding: 0;
+
+    }
+
+    .homepage-container{
+        color:rgb(250, 250, 250);
+        display:block;
+        font-family: Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-size:14px;
+        font-weight:400;
+        width: 100%;
+        letter-spacing: 0.3px ;
+        line-height: 24px ;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .hero-headline{
+        color: rgb(255, 255, 255);
+        display: block;
+        padding: 10px;
+        margin: 4px;
+        font-family: Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-size: 44px;
+        font-weight: 20;
+        
+    }
+          
+    h1 {
+        font: 44px "Arial";
+        color: white;
+      }
+
+    .announcement-bar{
+        align-items:center;
+        background-color:rgb(255, 255, 255);
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius:4px;
+        box-shadow:rgba(10, 16, 20, 0.24) 0px 2px 2px 0px, rgba(10, 16, 20, 0.12) 0px 0px 2px 0px;
+        box-sizing:border-box;
+        color: rgba(0, 0, 0, 0.87);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-family: Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-size: 14px;
+        font-weight:400;
+        height: 96px;
+        justify-content:  space-around;
+        letter-spacing: 0.3px;
+        line-height: 24px;
+        margin-bottom: 0px;
+        margin-left: 354px;
+        margin-right: 354px;
+        margin-top:   0px;
+        max-width:  778px;
+        padding-bottom: 16px;
+        padding-left:16px;
+        padding-right:   16px;
+        padding-top:     16px;
+        transition-delay:0s;
+        transition-duration: 0.3s;
+        transition-property:all;
+        transition-timing-function:ease-in;
+        width:778px;
+        -webkit-font-smoothing: antialiased;
+
+    }
+
+    .text-anoun{
+            font-size: 16px;
+            margin: 8px;
+            text-align: center;
+        }
+
+    #learn-more{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        min-width: 160px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #1976d2;
+        border-radius: 48px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+        box-sizing: border-box;
+        cursor: pointer;
+        text-decoration-line: none;
+    }
+
+.home-bdy{
+align-items:center;
+box-sizing:border-box;
+color:rgba(0, 0, 0, 0.87);
+display:flex;
+font-family:Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-size:14px;
+height:225px;
+justify-content:center;
+margin-bottom:32px;
+margin-left:188.5px;
+margin-right:188.5px;
+margin-top:32px;
+max-width:920px;
+width:920px;
+-webkit-font-smoothing:antialiased;
+}
+
+.promo-img-container-promo-1{
+        align-items: center;
+        box-sizing: border-box;
+        color: rgba(0, 0, 0, 0.87);
+        display: flex;
+        font-family:Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-size: 14px;
+        justify-content: center;
+        margin-bottom: 32px;
+        margin-left: 188.5px;
+        margin-right:  188.5px;
+        margin-top: 32px;
+        max-width: 920px;
+}
+    
+.promo-img-container-promo-2{
+    align-items: center;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    font-family:Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    margin-bottom: 32px;
+    margin-left: 188.5px;
+    margin-right:  188.5px;
+    margin-top: 32px;
+    max-width: 920px;
+}
+
+.promo-img-container-promo-3{
+    align-items: center;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+    display: inline-block;
+    font-family:Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    margin-bottom: 32px;
+    margin-left: 188.5px;
+    margin-right:  188.5px;
+    margin-top: 32px;
+    max-width: 920px;
+}
+
+.text-container{
+    display: block;
+    font-size:"14px";
+    max-width: 60%;
+}
+
+.text-headline{
+    color: rgb(25, 118, 210);
+    display: inline-block;
+    font-family:Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-transform: uppercase;
+    max-width: ;
+}
+
+.text-body{
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    font-family: Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .3px;
+    font-weight: 400;
+}
+
+.card {
+    align-items:center;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px ;
+    border-top-left-radius: 4px;
+    border-top-right-radius:4px;
+    box-shadow:rgba(10, 16, 20, 0.15) 0px 6px 6px 0px, rgba(10, 16, 20, 0.12) 0px 0px 52px 0px;
+    box-sizing:border-box;
+    color: rgb(25, 118, 210);
+    cursor:pointer;
+    display:flex;
+    flex-direction:row;
+    font-family:Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size:14px;
+    font-weight:400;
+    height:150px;
+    letter-spacing:0.3px;
+    line-height:24px;
+    margin-bottom:0px;
+    margin-left:44.5938px;
+    margin-right:44.6094px;
+    margin-top: 0px;
+    min-width:350px  ;
+    padding-bottom:24px;
+    padding-left:24px;
+    padding-right:24px ;
+    padding-top:24px;
+    position:relative;
+    transition-delay:0s;
+    transition-duration:0.5s;
+    transition-property:box-shadow;
+    transition-timing-function: ease;
+    width: 350px ;
+    -webkit-font-smoothing:antialiased;
+    }
+
+    footer {
+        background-color:rgb(25, 118, 210);
+color:rgb(250, 250, 250);
+display: block;
+width: 100%;
+flex-basis: 0%;
+flex-grow: 1;
+flex-shrink:1;
+font-family: Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif ;
+font-size: 14px;
+font-weight: 300;
+height: 263px;
+line-height: 24px;
+padding-bottom: 48px;
+padding-left: 48px;
+padding-right:48px;
+padding-top:48px;
+position:relative;
+width:1379px;
+z-index:0;
+-webkit-font-smoothing: antialiased;
+}
+
+
+.ng-star{
+color:rgb(250, 250, 250);
+display: list-item;
+font-family: Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif ;
+font-size: 14px ;
+font-weight: 400 ;
+height:24px ;
+letter-spacing: 0.3px ;
+line-height: 24px ;
+list-style-position: inside ;
+list-style-type: none ;
+padding-bottom: 0px;
+padding-left:0px;
+padding-right:0px;
+padding-top:0px;
+text-align:left;
+text-decoration: none;
+width:107.609px;
+-webkit-font-smoothing:antialiased;
+}
+
+.grid-fluid{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 0 0 40px;
+    color:rgb(250, 250, 250);
+display:flex;
+font-family:Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-size:14px;
+font-weight:300;
+height:160px;
+justify-content:center;
+line-height:24px;
+margin-bottom:40px;
+margin-left:0px;
+margin-right:0px;
+margin-top:0px;
+text-align:left;
+width:1199px;
+-webkit-font-smoothing: antialiased;
+    }
+ 
+
+.footer-list{
+        color:white;
+
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: .3px;
+        font-weight: 400;
+        list-style-type: disc;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 40px;
+
+}
+
+.footer-block {
+    align-content: center;
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+
+#license{
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+a.link{
+    color: white;
+    text-decoration: none;
+}
